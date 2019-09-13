@@ -21,4 +21,13 @@ public class ProdutoService {
 		return repository.findAll();
 	}
 	
+	public String mensagem() {
+		return repository.testeMsg();
+	}
+	
+	public Integer procSomar(int numeroA, int numeroB) {
+		return repository.procSomar(numeroA,numeroB);
+	}
+	
+	
 }
